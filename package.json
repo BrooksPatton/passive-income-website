@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "dotenv": "^1.2.0",
+    "supertest": "^1.1.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node bin/www.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
