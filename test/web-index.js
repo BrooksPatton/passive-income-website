@@ -14,7 +14,7 @@ describe('Sending a GET to /', function() {
 				.end(function(err, res){
 					if(err) return done(err);
 
-					res.text.should.be.equal('hello world');
+					res.text[0].should.be.equal('<');
 
 					done();
 				});
